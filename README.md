@@ -1,4 +1,4 @@
-# Results Package — Depression Severity & Binary Classification (5-Fold CV)
+# Hybrid Multimodal Deep Learning Framework for Parkinson's Disease Staging and Depression Assessment
 
 This folder contains the trained model checkpoints, evaluation outputs, and figures produced from a 5-fold cross-validation experiment on two classification tasks:
 
