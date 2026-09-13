@@ -72,10 +72,9 @@ import torch
 # Load a specific fold's model
 model = torch.load("model_fold1.pt", map_location="cpu")
 model.eval()
+
 ```
-
 > Update the loading code above to match your model class definition if `torch.load` returns a state_dict rather than a full model object.
-
 ---
 
 ## 📌 Notes
