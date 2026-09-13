@@ -62,9 +62,11 @@ Full per-class precision/recall/F1 values for every fold are available in:
 
 Both tasks show consistent performance across all 5 folds, with Fold 1, 3, and 5 achieving perfect (1.00) scores on all classes, and Folds 2 and 4 showing minor dips (as low as 0.98 recall on class 0).
 
+
 ---
 
 ## 🔁 Reproducing / Loading the Models
+
 
 ```python
 import torch
@@ -73,8 +75,11 @@ import torch
 model = torch.load("model_fold1.pt", map_location="cpu")
 model.eval()
 
+
 ```
+
 > Update the loading code above to match your model class definition if `torch.load` returns a state_dict rather than a full model object.
+
 ---
 
 ## 📌 Notes
